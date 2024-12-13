@@ -13,22 +13,11 @@
             padding: 0;
             text-align: center;
             height: auto; 
-            animation: backgroundAnimation 20s linear infinite; 
-            background-color: rgb(252, 192, 83);
+            background-image: url('mas.jpg');
+            background-size: cover; 
+            background-position: center;
             color: #333; 
-        }
-        @keyframes backgroundAnimation {
-            0% { background-color: rgb(252, 192, 83); }  
-            10% { background-color: #FFBD33; }
-            20% { background-color: rgb(238, 190, 100); }
-            30% { background-color: rgb(223, 177, 92); }
-            40% { background-color: rgb(228, 164, 46); }
-            50% { background-color: rgb(219, 164, 61); }
-            60% { background-color: rgb(194, 138, 34); }
-            70% { background-color: rgb(252, 198, 99); }
-            80% { background-color: rgb(248, 211, 142); }
-            90% { background-color: rgb(226, 172, 72); }
-            100% { background-color: rgb(240, 169, 37); }
+            position: relative;
         }
 
         .navbar {
@@ -57,27 +46,11 @@
             background-color: orange;
         }
 
-        @media screen and (max-width: 500px) {
-            .navbar a {
-                float: none;
-                display: block;
-                width: 100%;
-                text-align: left;
-            }
-        }
-
-        img {
-            width: 150px; 
-            height: auto; 
-            margin: 20px auto; 
-            display: block; 
-        }
-
         main {
             max-width: 800px;
             margin: 20px auto;
             padding: 20px;
-            background-color: #f9f9f9;
+            background-color: rgba(249, 249, 249, 0.9); 
             border-radius: 8px; 
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
         }
@@ -107,20 +80,6 @@
             margin-top: 20px; 
         }
 
-        @media screen and (max-width: 600px) {
-            main {
-                padding: 10px;
-            }
-            h1 {
-                font-size: 1.8em; 
-            }
-            h2 {
-                font-size: 1.5em; 
-            }
-            h3 {
-                font-size: 1.2em; 
-            }
-        }
     </style>
 </head>
 <body>
